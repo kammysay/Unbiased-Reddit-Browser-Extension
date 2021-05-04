@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Unbiased for Reddit",
+    "version": "1.0",
+
+    "description": "Working towards making a less biased Reddit",
+
+    "content_scripts":[
+        {
+            "matches": ["*://*.reddit.com/*"],
+            "js":["main.js"]
+        }
+    ],
+
+    "web_accessible_resources":[
+        "/subs.json"
+    ]
+}
