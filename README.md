@@ -1,7 +1,4 @@
 # Unbiased for Reddit
-Unbiased for Reddit is a browser extension that aims to lessen the amount of bias present on the website.
+Unbiased for Reddit is a browser extension hides vote counts and awards on reddit.
 
-### **Key Features**
----
-1. Hide vote counters 
-2. Hide awards
+**Firefox:** https://addons.mozilla.org/en-US/firefox/addon/unbiased-for-reddit/
