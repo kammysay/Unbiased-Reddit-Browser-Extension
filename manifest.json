@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "Unbiased for Reddit",
-    "version": "1.0",
+    "version": "1.1",
 
-    "description": "Working towards making a less biased Reddit",
+    "description": "Hide upvotes and awards on reddit.com.",
 
     "content_scripts":[
         {
@@ -11,9 +11,5 @@
             "js": ["main.js"],
             "css": ["hide_elements.css"]
         }
-    ],
-
-    "web_accessible_resources":[
-        "/subs.json"
     ]
 }
