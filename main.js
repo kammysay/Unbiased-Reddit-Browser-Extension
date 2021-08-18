@@ -32,8 +32,6 @@ function event_handler(){
     }
 }
 
-// Run this interval hiding the votes until votes are hidden
-
 /**
  * Reddit loads votes and other similar elements after page initially loads.
  * DOMContentLoaded and Load events do not accurately determine when these elements
