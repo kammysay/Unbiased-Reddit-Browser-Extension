@@ -12,6 +12,10 @@ function hideVotesNewReddit(){
     var bannerVote = document.getElementsByClassName("_1rZYMD_4xY3gRcSS3p8ODO _25IkBM0rRUqWX5ZojEMAFQ");
     bannerVote[0].remove();
 
+    // There is only ever one percent upvoted span
+    var percentUpvoted = document.getElementsByClassName("t4Hq30BDzTeJ85vREX7_M");
+    percentUpvoted[0].remove();
+
     // Remove div for vote count on comments
     var commentVotes = document.getElementsByClassName("_1rZYMD_4xY3gRcSS3p8ODO _25IkBM0rRUqWX5ZojEMAFQ _3ChHiOyYyUkpZ_Nm3ZyM2M");
     for(var i=0; i<commentVotes.length; i++){
@@ -39,6 +43,10 @@ function hideVotesOldReddit(){
     for(var i=0; i<postDisliked.length; i++){
         postDisliked[i].remove();
     }
+
+    // Div that holds the exact amount of upvotes and the percent upvoted on old reddit
+    var linkInfo = document.getElementsByClassName("linkinfo");
+    linkInfo[0].remove();
 }
 
 /**
