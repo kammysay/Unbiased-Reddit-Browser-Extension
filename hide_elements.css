@@ -1,26 +1,63 @@
 /* NEW REDDIT */
 /* Hide awards */
 ._3XoW0oYd5806XiOr24gGdb {
-    visibility: hidden
+    display: none;
+}
+
+._1rZYMD_4xY3gRcSS3p8ODO{
+    display: none;
 }
 
 /* Hide award comment shadows */
 /* .remove() on these divs causes issues on the frontpage, so just hiding them instead :) */
 ._3VH2iGVh92XtlKq0-eVoEN {
-    visibility: hidden
+    display: none;
 }
 .TmlaIdEplCzZ0F1aRGYQh {
-    visibility: hidden
+    display: none;
 }
 
 /* Hide award SVG animations */
 .ai {
-    visibility: hidden
+    display: none;
+}
+
+._15G4fCS1bzGgGK9kBOtN2t {
+    display: none;
+}
+
+/* Hide some of the louder advertising for Reddit premium. Leaving the more subtle ones be. */
+.jEUbSHJJx8vISKpWirlfx {
+    display: none;
+}
+._1b1Jalg2nxA_Z-BjKXRfAV {
+    display: none;
 }
 
 /* OLD REDDIT */
+.score.unvoted {
+    display: none;
+}
+
+/* 
+Old Reddit handles votes in a clunky way. Three divs are created: one for if you don't vote, one 
+if you like, one if you dislike. So voting on a post or comment shows the count if we only 
+display:none it, hiding it keeps the number hidden, but introduces an annoying blank space. */
+.score {
+    visibility: hidden;
+}
+
+/* % Upvoted div */
+.linkinfo {
+    display: none;
+}
 
 /* Hide awards */
 .awardings-bar {
-    visibility: hidden;
+    display: none;
+}
+
+/* Blocking some of the loud Reddit premium advertising. */
+.premium-banner-outer {
+    display: none;
 }
